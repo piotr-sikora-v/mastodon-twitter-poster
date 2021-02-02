@@ -1,21 +1,21 @@
 ---
 pl:
   accounts: Konta
-  allow_with_words: Only crosspost posts containing the following words
-  block_with_words: Do not crosspost posts containing the following words
+  allow_with_words: Tylko crosspost postów zawierających następujące słowa
+  block_with_words: Nie umieszczaj postów zawierających następujące słowa
   boost_options: 'Opcje podbić:'
   change_this_on_options: Możesz zmienić te opcje w %{options}.
   connections: Połączenia
-  crossposter_explanation: Ta usługa pozwala na połączenie konta na Mastodonie z kontem
-    na Twitterze i włączenie przekazywania wpisów pomiędzy nimi. Możesz zmienić trochę
+  crossposter_explanation: Ta usługa pozwala na połączenie konta na Mastodonie w domenie Lhub.Social z kontem
+    na Twitterze i włączenie przekazywania wpisów pomiędzy nimi. Możesz zmienić wiele
     opcji, np. to czy chcesz publikować podbicia, niewidoczne wpisy i odpowiedzi.
   crossposting_overview: Przegląd opcji
   default_visibility: Używaj domyślnej widoczności Mastodona
   disconnect: Rozłącz
   errors:
     oauth:
-      allowed_domains: Sorry, this instance only accepts accounts from %{domains}.
-      blocked_domain: Sorry, %{domain} is blocked in this instance.
+      allowed_domains: Przepraszamy, ta instancja akceptuje tylko konta od %{domains}.
+      blocked_domain: Przepraszamy, %{domain} została zablokowana w tej instancji.
   features: Funkcje
   follow_us_on_the_fediverse: Śledź nas w Fediwersum!
   for_news_and_status: 'Informacje o nowościach i stanie:'
@@ -23,32 +23,31 @@ pl:
   from_twitter: Z Twittera do Mastodona
   home:
     privacy:
-      cookies: Do we use cookies?
-      disclose_info: Do we disclose any information to outside parties?
-      we_also_collect: We also collect the id of the posts made from the crossposter
-        on both sites, for as long as one year.
-      we_also_use_for: We use the id of the posts to be able to correlate Mastodon
-        and Twitter posts, which allows us to crosspost threads from one site to the
-        other.
-      we_collect: We collect your Mastodon username and Twitter id, as well as OAuth
-        tokens for each service, which allows us to take actions with your accounts.
-      we_do_not_disclose_info: No.
-      we_use_cookies: Yes. While you're logged in we use a cookie to create a session
-        and identify you to your accounts.
-      we_use_for: We use the OAuth tokens and identifier to be able to connect to
-        your accounts, retrieve posts and post to the other service, according to
-        your configuration.
-      what_use: What do we use your information for?
-      which_information: What information we collect?
+      cookies: Czy używamy plików cookie?
+      disclose_info: Czy ujawniamy jakiekolwiek informacje stronom zewnętrznym?
+      we_also_collect: Zbieramy również id postów przekazanych z crosspostera
+        z obu stron, przez okres roku.
+      we_also_use_for: Używamy identyfikatorów postów, aby móc skorelować posty na Mastodonie
+        z postami na Twitterze, co pozwala nam na crosspostowanie wątków z jednej strony na drugą.
+      we_collect: Zbieramy Twoją nazwę użytkownika Mastodon i identyfikator Twittera, a także tokeny OAuth
+        dla każdej z usług, ponieważ pozwalają nam podejmować działania na Twoich kontach.
+      we_do_not_disclose_info: Nie.
+      we_use_cookies: Tak. Gdy jesteś zalogowany, używamy pliku cookie do utworzenia sesji 
+        i identyfikowania Twoich kont.
+      we_use_for: Używamy tokenów OAuth i identyfikatora, aby móc połączyć się z
+        Twoimi kontami Twitter/Mastodon, pobierać posty i wysyłać je do tych usług, 
+        zgodnie z twoją konfiguracją.
+      what_use: Do czego wykorzystujemy Twoje dane?
+      which_information: Jakie informacje gromadzimy?
     sync_status:
-      mastodon_account_html: The Mastodon account connected is <code>@%{uid}</code>.
-      twitter_account_html: The Twitter account connected is <code>@%{handle}</code>.
+      mastodon_account_html: Podłączone konto Mastodon to <code>@%{uid}</code>.
+      twitter_account_html: Podłączone konto Twitter to <code>@%{handle}</code>.
   layouts:
     application:
       home: Strona główna
-      privacy_policy: Privacy policy
+      privacy_policy: Polityka prywatności
   log_out: Wyloguj się
-  login_to_get_started: Zaloguj z użyciem Twittera i Mastodona aby rozpocząć
+  login_to_get_started: Zaloguj się do Twittera i Mastodona aby rozpocząć
   manage_your_accounts: Zarządzaj połączonymi kontami
   masto_boost_do_not_post: Nie publikuj podbić na Twitterze
   masto_boost_post_as_link: 'Publikuj podbicia na Twitterze jako odnośniki (Boosted:
@@ -56,30 +55,30 @@ pl:
   masto_login:
     identifier: Identyfikator
     invalid_identifier: Nieprawidłowy identyfikator. Musisz używać formatu użytkownik@instancja,
-      np. crossposter@masto.donte.com.br
+      np. mojekonto@lhub.social
     login: Zaloguj się
     please: Połącz konto Mastodona
-  masto_mention_do_not_post: Nie umieszczaj wspomnień na Twitterze
-  masto_mention_options: 'Opcje wspomnień:'
-  masto_mention_options_explanation: Ta usługa uznaje za wspomnienie wpis, który nie
-    jest odpowiedzią, a zaczyna się wspomnieniem innego użytkownika.
+  masto_mention_do_not_post: Nie umieszczaj wspominek kont na Twitterze
+  masto_mention_options: 'Opcje wspominek:'
+  masto_mention_options_explanation: Ta usługa uznaje za wspomninkę wpis, który nie
+    jest odpowiedzią, a zaczyna się wskazaniem innego użytkownika.
   masto_not_posting_boost: Nie publikujesz podbić.
   masto_not_posting_private: Nie publikujesz prywatnych tootów.
   masto_not_posting_reply: Nie publikujesz odpowiedzi.
-  masto_not_posting_unlisted: Nie publikujesz niewypisanych tootów.
+  masto_not_posting_unlisted: Nie publikujesz tootów nienotowanych na tablicy.
   masto_posting_boost_as_link: Publikujesz podbicia jako odnośniki.
   masto_posting_private: Publikujesz prywatne tooty.
   masto_posting_reply_to_self: Publikujesz odpowiedzi na własne wpisy.
-  masto_posting_unlisted: Publikujesz niewypisane tooty.
+  masto_posting_unlisted: Publikujesz tooty nienotowane na tablicy.
   masto_privacy:
     private: Prywatne
     public: Publiczne
-    unlisted: Niewypisane
+    unlisted: Niepublikowane
   masto_privacy_for_status:
     default: Domyślna prywatność Mastodona.
     private: Prywatne.
     public: Publiczne.
-    unlisted: Niewypisane.
+    unlisted: Niepublikowane.
   masto_reply_do_not_post: Nie publikuj odpowiedzi na Twitterze
   masto_reply_options: 'Opcje odpowiedzi:'
   masto_reply_options_explanation: Dotyczy sytuacji, gdy klikasz na przycisk odpowiedzi
@@ -147,33 +146,33 @@ pl:
   twitter_sync_status_false: NIE
   twitter_sync_status_true: TAK
   twitter_synchronization_status: Publikuj moje tweety na Mastodonie
-  twitter_word_list: Twitter word list
+  twitter_word_list: Lista słów Twittera
   users:
     advanced_mastodon:
       add_another_word: Dodaj kolejne słowo
-      disabled: Disabled
-      masto_block_or_allow_list: Ignore posts containing certain words or only allow
-        posts containing certain words
-      masto_block_or_allow_list_explanation: This option lets you choose to ignore
-        crossposting of posts that contain the words defined below or to only crosspost
-        posts that contain the words defined below
-      masto_word_list: List of words or expressions for posts coming from Mastodon
-      masto_word_list_explanation: This list of words will be used if you enabled
-        the option above. No partial match is done, that is, if you write "bird" above,
-        "birdsite" will not be considered.
+      disabled: Wyłączone
+      masto_block_or_allow_list: Ignoruj posty zawierające określone słowa lub zezwalaj tylko na
+        posty zawierające określone słowa
+      masto_block_or_allow_list_explanation: Ta opcja pozwala Ci wybrać ignorowanie
+        crossposting postów, które zawierają słowa zdefiniowane poniżej lub tylko crossposting
+        postów, które zawierają słowa zdefiniowane poniżej
+      masto_word_list: Lista słów lub wyrażeń dla postów pochodzących z Mastodon
+      masto_word_list_explanation: Ta lista słów zostanie użyta, jeśli włączysz
+        powyższą opcję. Nie jest wykonywane dopasowanie częściowe, to znaczy, jeśli napiszesz "ptak" powyżej,
+        "ptaki" nie będzie brane pod uwagę.
     advanced_twitter:
       add_another_word: Dodaj kolejne słowo
-      disabled: Disabled
-      twitter_block_or_allow_list: Ignore posts containing certain words or only allow
-        posts containing certain words
-      twitter_block_or_allow_list_explanation: This option lets you choose to ignore
-        crossposting of posts that contain the words defined below or to only crosspost
-        posts that contain the words defined below
-      twitter_word_list_explanation: This list of words will be used if you enabled
-        the option above. No partial match is done, that is, if you write "bird" above,
-        "birdsite" will not be considered.
+      disabled: Wyłączone
+      twitter_block_or_allow_list: Ignoruj posty zawierające określone słowa lub zezwalaj tylko na
+        posty zawierające określone słowa
+      twitter_block_or_allow_list_explanation: Ta opcja pozwala Ci wybrać ignorowanie
+        wysyłania postów, które zawierają słowa zdefiniowane poniżej lub tylko wysyłanie
+        postów, które zawierają słowa zdefiniowane poniżej
+      twitter_word_list_explanation: Ta lista słów zostanie użyta, jeśli włączysz
+        powyższą opcję. Nie jest wykonywane dopasowanie częściowe, to znaczy, jeśli napiszesz "ptak" powyżej,
+        "ptaki" nie będzie brane pod uwagę.
     mastodon_identifier:
-      identifier_placeholder: Your username at your instance, in the format your.at@your.instance
+      identifier_placeholder: Twoja nazwa użytkownika w Twojej instancji, w formacie moje.konto@lhub.social
     show:
       advanced_from_mastodon_options: Zaawansowane opcje wysyłania postów z Mastodona
         do Twittera
