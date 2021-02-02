@@ -6,9 +6,12 @@ pl:
   boost_options: 'Opcje podbić:'
   change_this_on_options: Możesz zmienić te opcje w %{options}.
   connections: Połączenia
-  crossposter_explanation: Ta usługa pozwala na połączenie konta na Mastodonie w domenie Lhub.Social z kontem
+  crossposter_explanation: Ta usługa pozwala na połączenie konta na Mastodonie w domenie <a href="Lhub.Social" target="_blank">Lhub.Social</> z kontem
     na Twitterze i włączenie przekazywania wpisów pomiędzy nimi. Możesz zmienić wiele
-    opcji, np. to czy chcesz publikować podbicia, niewidoczne wpisy i odpowiedzi.
+    opcji, np. to czy chcesz publikować podbicia, retwitty i odpowiedzi. 
+    W największym skrócie, to co piszesz na Twitter może wyświetlać się na Mastodon-ie oraz ewentualnie w drugą stronę. 
+    To dobra opcja, jeśli zaczynasz przygodę z #Fediwersum, ale Twitter nadal jest dla Ciebie ważny.
+    Dla osób używających innych instancji Mastodon polecamy oryginalny <a href="https://crossposter.masto.donte.com.br" target="_blank">Mastodon Twitter Crossposter</>. 
   crossposting_overview: Przegląd opcji
   default_visibility: Używaj domyślnej widoczności Mastodona
   disconnect: Rozłącz
